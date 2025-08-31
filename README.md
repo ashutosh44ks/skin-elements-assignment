@@ -2,6 +2,10 @@
 
 A modern analytics dashboard built with React, Typescript, Vite, Tailwind CSS, and Recharts. Includes authentication via Google OAuth and fake integration with Amazon and Shopify for seller analytics, and a simple interactive chatbot. This project is just an UI demo and not a production-ready application.
 
+## Deployment
+It is deployed at vercel
+https://skin-elements-assignment.vercel.app/
+
 ## Features
 
 - Interactive charts (bar, area, pie, radial) using Recharts
