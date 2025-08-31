@@ -56,7 +56,7 @@ const router = createBrowserRouter([
           {
             path: "/shopify-integration",
             element: <ShopifyIntegration />,
-          }
+          },
         ],
       },
     ],
@@ -71,11 +71,11 @@ const App = () => {
   return (
     <GoogleOAuthProvider clientId={import.meta.env.VITE_G_CLIENT_ID}>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-          <AuthProvider>
-            <ProductsProvider>
-              <RouterProvider router={router} />
-            </ProductsProvider>
-          </AuthProvider>
+        <AuthProvider>
+          <ProductsProvider>
+            <RouterProvider router={router} />
+          </ProductsProvider>
+        </AuthProvider>
         <Toaster />
       </ThemeProvider>
     </GoogleOAuthProvider>

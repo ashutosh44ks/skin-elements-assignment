@@ -21,7 +21,6 @@ export function NavMain({
   const location = useLocation();
   const navigate = useNavigate();
   const isActive = (url: string) => location.pathname.startsWith(url);
-  console.log("Current location:", location.pathname, items);
   return (
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">

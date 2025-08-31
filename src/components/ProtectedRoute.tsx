@@ -1,5 +1,6 @@
 import { useLoggedInUser } from "@/hooks/useLoggedInUser";
 import { Navigate, Outlet } from "react-router";
+import ScrollToTop from "./ScrollToTop";
 
 const ProtectedRoute = () => {
   const { user } = useLoggedInUser();
@@ -11,7 +12,12 @@ const ProtectedRoute = () => {
     return <Navigate to="/login" replace />;
   }
   // If user is logged in, render the child components
-  return <Outlet />;
+  return (
+    <>
+      <ScrollToTop />
+      <Outlet />
+    </>
+  );
 };
 
 export default ProtectedRoute;

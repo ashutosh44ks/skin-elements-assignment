@@ -24,7 +24,7 @@ const Profit = () => {
   );
   const randomProduct = products[Math.floor(Math.random() * products.length)];
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 flex-wrap">
       <div className="flex-1">
         <ChartCard
           title="Key Demographics"
