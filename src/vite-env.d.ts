@@ -7,7 +7,6 @@ interface ImportMetaEnv {
   readonly VITE_ANALYTICS_ID?: string; // Optional if not always present
   // Add other VITE_ prefixed variables here
   readonly VITE_G_CLIENT_ID: string;
-  readonly VITE_G_SECRET: string;
 }
 
 interface ImportMeta {

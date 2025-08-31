@@ -44,7 +44,6 @@ cp .env.example .env
 ```
 
 - `VITE_G_CLIENT_ID`: Google OAuth Client ID
-- `VITE_G_SECRET`: Google OAuth Secret
 
 ### Running the App
 
