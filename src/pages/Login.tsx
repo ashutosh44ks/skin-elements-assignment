@@ -33,15 +33,15 @@ const Login = () => {
   };
 
   return (
-    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10 bg-gray-100 dark:bg-black">
       <div className="w-full max-w-sm">
         <div className="flex flex-col gap-6">
           <Card>
             <CardHeader>
               <img
-                src="logo.png"
+                src="logo-main.png"
                 alt="Skin Elements Logo"
-                className="h-12 bg-white object-contain mb-2 rounded border px-4"
+                className="h-18 bg-white object-contain mb-2 rounded border px-4"
               />
               <CardTitle>Login to your account</CardTitle>
               <CardDescription>
