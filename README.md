@@ -3,13 +3,15 @@
 A modern analytics dashboard built with React, Typescript, Vite, Tailwind CSS, and Recharts. Includes authentication via Google OAuth and fake integration with Amazon and Shopify for seller analytics, and a simple interactive chatbot. This project is just a UI demo and not a production-ready application.
 
 ## Deployment
-It is deployed at vercel
+It is deployed at Vercel
 https://skin-elements-assignment.vercel.app/
+
+## Sample Products file
+A sample file for uploading bulk products could be found in `root/src/lib/sample.csv` (https://github.com/ashutosh44ks/skin-elements-assignment/blob/master/src/lib/sample.csv)
 
 ## Features
 
 - Interactive charts (bar, area, pie, radial) using Recharts
-- Amazon and Shopify integration forms
 - Protected routes and authentication (Google OAuth)
 - Product analytics and profit breakdowns
 - Simple interactive chatbot (dummy responses)
