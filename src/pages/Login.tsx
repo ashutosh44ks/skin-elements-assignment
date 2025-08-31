@@ -41,7 +41,7 @@ const Login = () => {
               <img
                 src="logo.png"
                 alt="Skin Elements Logo"
-                className="h-12 object-contain mb-2"
+                className="h-12 bg-white object-contain mb-2 rounded border px-4"
               />
               <CardTitle>Login to your account</CardTitle>
               <CardDescription>
