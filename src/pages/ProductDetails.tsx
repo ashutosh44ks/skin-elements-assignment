@@ -52,9 +52,27 @@ const ProductDetails = () => {
         />
       </div>
       <div className="flex gap-4 mt-4 md:flex-row flex-col-reverse">
-        <pre className="p-4 border border-border rounded-md bg-muted/50 flex-1">
-          {JSON.stringify(product, null, 2)}
-        </pre>
+        <div className="p-4 border border-border rounded-md bg-muted/50 flex-1">
+          <h3 className="text-lg font-semibold mb-2">Product Info</h3>
+          <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+            <dt className="font-medium text-muted-foreground">ID</dt>
+            <dd>{product.id}</dd>
+            <dt className="font-medium text-muted-foreground">Name</dt>
+            <dd>{product.name}</dd>
+            <dt className="font-medium text-muted-foreground">Sales</dt>
+            <dd>{product.sales}</dd>
+            <dt className="font-medium text-muted-foreground">Profit</dt>
+            <dd>{product.profit}</dd>
+            <dt className="font-medium text-muted-foreground">TE</dt>
+            <dd>{product.te}</dd>
+            <dt className="font-medium text-muted-foreground">Credit</dt>
+            <dd>{product.credit}</dd>
+            <dt className="font-medium text-muted-foreground">Amazon Fee</dt>
+            <dd>{product.amazonFee}</dd>
+            <dt className="font-medium text-muted-foreground">Profit %</dt>
+            <dd>{product.profitPercentage}</dd>
+          </dl>
+        </div>
         <div className="flex-1 flex flex-col gap-4">
           <ChartCard
             title="Product Expense Breakdown"
